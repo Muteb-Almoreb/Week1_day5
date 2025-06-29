@@ -312,60 +312,62 @@ public class Main {
 //        System.out.println(numN+" negatives ");
 //
 
+
 //
 //        //16 - Write a program that prompts the user to input an integer and then outputs the
 //        //number with the digits reversed.
 //
-//        System.out.println("enter number to reverse");
-//        int num = input.nextInt();
-//        StringBuilder s = new StringBuilder(num);
+//        System.out.println("enter the number ");
+//        String  num = input.nextLine();
 //
-//        System.out.println(s.reverse());
-////جرب بطريقة اللوب الي امس
+//
+//
+//
+//            StringBuilder re = new StringBuilder(num);
+//
+//            System.out.println(re.reverse());
+        
 
-//
 //        //17 - Write a program to enter the numbers till the user wants and at the end the
 //        //program should display the largest and smallest numbers entered.
 //
 //
+//        int ch = 1;
+//        int min=0;
+//        int max=0;
 //
-//        int num ;
-//        int max=0 ;
-//        int min = 0;
-//        int c = 1;
-//
-//        while(c !=0)
+//        while (ch!=0)
 //        {
-//            System.out.println("enter numbers to find max and min");
-//            System.out.println("Enter 0 to exit: ");
-//            num = input.nextInt();
+//            System.out.println("enter number");
+//            int num = input.nextInt();
 //
-//            if(num>max )
-//            {
-//                max=num;
-//            }
-//            else if(num<=max)
+//
+//            if(num==0)
+//        {
+//
+//            break;
+//        }
+//            else if (num<=min)
 //            {
 //                min=num;
 //            }
-//
-//             if(num==0)
+//            else if(num>=max && max<=min)
 //            {
-//                c=0;
+//                max=num;
+//                min=num;
 //            }
 //
-//            if(num<min && num!=0) {
-//                min = num;
-//            } else if (num>=min) {
 //
 //
-//            }
+//
+//
+//
 //
 //
 //        }
-//        System.out.println("the max is "+max +"the min "+ min);
-//
-//                }
+//        System.out.println("the large number : "+max);
+//        System.out.println("the small number :"+min);
+
 
 //
 //        //18 - Determine and print the number of times the character ‘a’ appears in the input
